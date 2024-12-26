@@ -1,0 +1,16 @@
+<key>UISupportedInterfaceOrientations</key>
+<array>
+    <string>UIInterfaceOrientationPortrait</string>
+</array>
+
+<key>UISupportedInterfaceOrientations~ipad</key>
+<array>
+    <string>UIInterfaceOrientationPortrait</string>
+    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+</array>
+
+<key>CFBundleName</key>
+<string>OctopusAgile</string>
+
+<key>CFBundleDisplayName</key>
+<string>OctopusAgile</string>

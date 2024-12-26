@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF5EBB272C978C16005D779E /* WJ_OctopusAgile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF5EBB252C978C16005D779E /* WJ_OctopusAgile.xcdatamodeld */; };
+		BF5EBB2B2C979167005D779E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = BF5EBB2A2C979167005D779E /* Localizable.xcstrings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF801F242C8DDCD3000A641B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF801F0B2C8DDCD0000A641B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF801F122C8DDCD0000A641B;
+			remoteInfo = WJ_OctopusAgileWidget;
+		};
+		BF801F2E2C8DDCD3000A641B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF801F0B2C8DDCD0000A641B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF801F122C8DDCD0000A641B;
+			remoteInfo = WJ_OctopusAgileWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF5EBB262C978C16005D779E /* WJ_OctopusAgile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WJ_OctopusAgile.xcdatamodel; sourceTree = "<group>"; };
+		BF5EBB2A2C979167005D779E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		BF801F132C8DDCD0000A641B /* WJ_OctopusAgileWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJ_OctopusAgileWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF801F232C8DDCD3000A641B /* WJ_OctopusAgileWidgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJ_OctopusAgileWidgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF801F2D2C8DDCD3000A641B /* WJ_OctopusAgileWidgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJ_OctopusAgileWidgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BF801F152C8DDCD0000A641B /* WJ_OctopusAgileWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WJ_OctopusAgileWidget;
+			sourceTree = "<group>";
+		};
+		BF801F262C8DDCD3000A641B /* WJ_OctopusAgileWidgetTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WJ_OctopusAgileWidgetTests;
+			sourceTree = "<group>";
+		};
+		BF801F302C8DDCD3000A641B /* WJ_OctopusAgileWidgetUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WJ_OctopusAgileWidgetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF801F102C8DDCD0000A641B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF801F202C8DDCD3000A641B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF801F2A2C8DDCD3000A641B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF801F0A2C8DDCD0000A641B = {
+			isa = PBXGroup;
+			children = (
+				BF5EBB2A2C979167005D779E /* Localizable.xcstrings */,
+				BF5EBB252C978C16005D779E /* WJ_OctopusAgile.xcdatamodeld */,
+				BF801F152C8DDCD0000A641B /* WJ_OctopusAgileWidget */,
+				BF801F262C8DDCD3000A641B /* WJ_OctopusAgileWidgetTests */,
+				BF801F302C8DDCD3000A641B /* WJ_OctopusAgileWidgetUITests */,
+				BF801F142C8DDCD0000A641B /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		BF801F142C8DDCD0000A641B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF801F132C8DDCD0000A641B /* WJ_OctopusAgileWidget.app */,
+				BF801F232C8DDCD3000A641B /* WJ_OctopusAgileWidgetTests.xctest */,
+				BF801F2D2C8DDCD3000A641B /* WJ_OctopusAgileWidgetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF801F122C8DDCD0000A641B /* WJ_OctopusAgileWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF801F372C8DDCD4000A641B /* Build configuration list for PBXNativeTarget "WJ_OctopusAgileWidget" */;
+			buildPhases = (
+				BF801F0F2C8DDCD0000A641B /* Sources */,
+				BF801F102C8DDCD0000A641B /* Frameworks */,
+				BF801F112C8DDCD0000A641B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BF801F152C8DDCD0000A641B /* WJ_OctopusAgileWidget */,
+			);
+			name = WJ_OctopusAgileWidget;
+			packageProductDependencies = (
+			);
+			productName = WJ_OctopusAgileWidget;
+			productReference = BF801F132C8DDCD0000A641B /* WJ_OctopusAgileWidget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF801F222C8DDCD3000A641B /* WJ_OctopusAgileWidgetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF801F3A2C8DDCD4000A641B /* Build configuration list for PBXNativeTarget "WJ_OctopusAgileWidgetTests" */;
+			buildPhases = (
+				BF801F1F2C8DDCD3000A641B /* Sources */,
+				BF801F202C8DDCD3000A641B /* Frameworks */,
+				BF801F212C8DDCD3000A641B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF801F252C8DDCD3000A641B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BF801F262C8DDCD3000A641B /* WJ_OctopusAgileWidgetTests */,
+			);
+			name = WJ_OctopusAgileWidgetTests;
+			packageProductDependencies = (
+			);
+			productName = WJ_OctopusAgileWidgetTests;
+			productReference = BF801F232C8DDCD3000A641B /* WJ_OctopusAgileWidgetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF801F2C2C8DDCD3000A641B /* WJ_OctopusAgileWidgetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF801F3D2C8DDCD4000A641B /* Build configuration list for PBXNativeTarget "WJ_OctopusAgileWidgetUITests" */;
+			buildPhases = (
+				BF801F292C8DDCD3000A641B /* Sources */,
+				BF801F2A2C8DDCD3000A641B /* Frameworks */,
+				BF801F2B2C8DDCD3000A641B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF801F2F2C8DDCD3000A641B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BF801F302C8DDCD3000A641B /* WJ_OctopusAgileWidgetUITests */,
+			);
+			name = WJ_OctopusAgileWidgetUITests;
+			packageProductDependencies = (
+			);
+			productName = WJ_OctopusAgileWidgetUITests;
+			productReference = BF801F2D2C8DDCD3000A641B /* WJ_OctopusAgileWidgetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF801F0B2C8DDCD0000A641B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					BF801F122C8DDCD0000A641B = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					BF801F222C8DDCD3000A641B = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = BF801F122C8DDCD0000A641B;
+					};
+					BF801F2C2C8DDCD3000A641B = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = BF801F122C8DDCD0000A641B;
+					};
+				};
+			};
+			buildConfigurationList = BF801F0E2C8DDCD0000A641B /* Build configuration list for PBXProject "WJ_OctopusAgileWidget" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hant",
+			);
+			mainGroup = BF801F0A2C8DDCD0000A641B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BF801F142C8DDCD0000A641B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF801F122C8DDCD0000A641B /* WJ_OctopusAgileWidget */,
+				BF801F222C8DDCD3000A641B /* WJ_OctopusAgileWidgetTests */,
+				BF801F2C2C8DDCD3000A641B /* WJ_OctopusAgileWidgetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF801F112C8DDCD0000A641B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5EBB2B2C979167005D779E /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF801F212C8DDCD3000A641B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF801F2B2C8DDCD3000A641B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF801F0F2C8DDCD0000A641B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5EBB272C978C16005D779E /* WJ_OctopusAgile.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF801F1F2C8DDCD3000A641B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF801F292C8DDCD3000A641B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF801F252C8DDCD3000A641B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF801F122C8DDCD0000A641B /* WJ_OctopusAgileWidget */;
+			targetProxy = BF801F242C8DDCD3000A641B /* PBXContainerItemProxy */;
+		};
+		BF801F2F2C8DDCD3000A641B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF801F122C8DDCD0000A641B /* WJ_OctopusAgileWidget */;
+			targetProxy = BF801F2E2C8DDCD3000A641B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BF801F352C8DDCD4000A641B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		BF801F362C8DDCD4000A641B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF801F382C8DDCD4000A641B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WJ_OctopusAgileWidget/Preview Content\"";
+				DEVELOPMENT_TEAM = V45S7U2LZB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "eugnel.WJ-OctopusAgileWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF801F392C8DDCD4000A641B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WJ_OctopusAgileWidget/Preview Content\"";
+				DEVELOPMENT_TEAM = V45S7U2LZB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "eugnel.WJ-OctopusAgileWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF801F3B2C8DDCD4000A641B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V45S7U2LZB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eugnel.WJ-OctopusAgileWidgetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJ_OctopusAgileWidget.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WJ_OctopusAgileWidget";
+			};
+			name = Debug;
+		};
+		BF801F3C2C8DDCD4000A641B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V45S7U2LZB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eugnel.WJ-OctopusAgileWidgetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJ_OctopusAgileWidget.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WJ_OctopusAgileWidget";
+			};
+			name = Release;
+		};
+		BF801F3E2C8DDCD4000A641B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V45S7U2LZB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eugnel.WJ-OctopusAgileWidgetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WJ_OctopusAgileWidget;
+			};
+			name = Debug;
+		};
+		BF801F3F2C8DDCD4000A641B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V45S7U2LZB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eugnel.WJ-OctopusAgileWidgetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WJ_OctopusAgileWidget;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF801F0E2C8DDCD0000A641B /* Build configuration list for PBXProject "WJ_OctopusAgileWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF801F352C8DDCD4000A641B /* Debug */,
+				BF801F362C8DDCD4000A641B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF801F372C8DDCD4000A641B /* Build configuration list for PBXNativeTarget "WJ_OctopusAgileWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF801F382C8DDCD4000A641B /* Debug */,
+				BF801F392C8DDCD4000A641B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF801F3A2C8DDCD4000A641B /* Build configuration list for PBXNativeTarget "WJ_OctopusAgileWidgetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF801F3B2C8DDCD4000A641B /* Debug */,
+				BF801F3C2C8DDCD4000A641B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF801F3D2C8DDCD4000A641B /* Build configuration list for PBXNativeTarget "WJ_OctopusAgileWidgetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF801F3E2C8DDCD4000A641B /* Debug */,
+				BF801F3F2C8DDCD4000A641B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF5EBB252C978C16005D779E /* WJ_OctopusAgile.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF5EBB262C978C16005D779E /* WJ_OctopusAgile.xcdatamodel */,
+			);
+			currentVersion = BF5EBB262C978C16005D779E /* WJ_OctopusAgile.xcdatamodel */;
+			name = WJ_OctopusAgile.xcdatamodeld;
+			path = /Users/jamesto/Documents/Coding/WJ_OctopusAgileWidget/WJ_OctopusAgile.xcdatamodeld;
+			sourceTree = "<absolute>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF801F0B2C8DDCD0000A641B /* Project object */;
+}
